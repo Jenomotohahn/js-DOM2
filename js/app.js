@@ -7,6 +7,7 @@ Also don't forget to run your live-server for this assignment.*/
 
 Rating: 5 Stars*/
 
+rating1.innerHTML = 'Rating: 5 Stars'
 
 //2. Sunrise Restaurant
 /*No rise and shine for the Sunrise Restaurant, as their price and address needs some serious updating. Bring in some sunshine by changing the price and address to the following:
@@ -14,6 +15,9 @@ Rating: 5 Stars*/
 Price: $$$
 Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
 
+
+price2.innerHTML = '$$$';
+addy2.innerHTML = '525 Kapahulu Ave, Honolulu, HI 96815';
 
 //3. Ramen Nakamura
 /*Literally, where did the time go? Ramen Nakamura is missing the hours section! This mistake is timeless.
@@ -23,6 +27,12 @@ You will need to create a new div element with an id of "hours3". Inside this di
 Hours: 6pm - 12am Sun - Sat
 
 Append this div element to the div id "text3"*/
+
+
+var ramenTime = document.createElement('div');
+ramenTime.id = 'hours3';
+ramenTime.innerHTML = 'Hours: 6pm - 12am Sun - Sat';
+text3.append(ramenTime);
 
 
 //4. Kam Bowl
@@ -55,6 +65,32 @@ Append this element to the div with the id of
 I'd leave a blank space for this oxtail soup!
 
 Append this element to the div id of "comment4"*/
+
+
+var kamPrice = document.createElement('div');
+kamPrice.id = 'price4';
+kamPrice.innerHTML='Price: $$$';
+text4.append(kamPrice);
+
+var kamAddy = document.createElement('div');
+kamAddy.id = 'addy4';
+kamAddy.innerHTML = '1620 N. School St, Honolulu i 96817';
+text4.append(kamAddy);
+
+var kamHours = document.createElement('div');
+kamHours.id = 'hours4';
+kamHours.innerHTML = 'Hours: 9am - 10pm Sun - Sat';
+text4.append(kamHours);
+
+var kamUpdate = document.createElement('p');
+kamUpdate.id = 'update4';
+kamUpdate.innerHTML = 'I\'d leave a blank space for this oxtail soup!'
+comment4.append(kamUpdate);
+
+
+
+
+
 
 
 //5. The Death Star Cafe

@@ -116,3 +116,33 @@ Append the div elements to the div id "text5"
 
 */
 
+
+
+
+
+var deathStarName = document.createElement('div');
+deathStarName.id = 'name5';
+deathStarName.innerHTML = 'The Death Star Cafe';
+text5.append(deathStarName);
+
+var deathStarRating = document.createElement('div');
+deathStarRating.id = 'rating5';
+deathStarRating.innerHTML = 'Rating: 2 Stars';
+text5.append(deathStarRating);
+
+var deathStarPrice = document.createElement('div');
+deathStarPrice.id = 'price5';
+deathStarPrice.innerHTML = 'Price: $$';
+text5.append(deathStarPrice);
+
+var deathStarAddy = document.createElement('div');
+deathStarAddy.id = 'addy5';
+deathStarAddy.innerHTML = 'A galaxy far, far away.';
+text5.append(deathStarAddy);
+
+var deathStarHours = document.createElement('div');
+deathStarHours.id = 'hours5';
+deathStarHours.innerHTML = 'We never close.';
+text5.append(deathStarHours);
+
+
